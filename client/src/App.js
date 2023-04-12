@@ -4,13 +4,15 @@ import Navbar from './components/Navbar';
 import Register from './components/Register';
 import Login from './components/Login';
 
+
+
 function App() {
   return (
     <Router>
       <Navbar />
       <Routes>
-        <Route path="/register" component={Register} />
-        <Route path="/login" component={Login} />
+        <Route path="/register" element={<Register />} />
+        <Route path="/login" element={<Login />} />
       </Routes>
     </Router>
   );
