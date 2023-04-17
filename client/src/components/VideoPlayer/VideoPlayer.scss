@@ -1,0 +1,28 @@
+.video-js {
+  width: 100%;
+  max-width: 640px;
+  height: 385px;
+}
+
+.thumbnails {
+  display: flex;
+  justify-content: space-between;
+  max-width: 640px;
+  margin-top: 1rem;
+}
+
+.thumbnail {
+  width: 48%;
+  cursor: pointer;
+  transition: 0.3s;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+.video-wrapper .video-js {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
