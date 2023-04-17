@@ -6,9 +6,9 @@ Starting local server:
 In the root run
 To test the sever run:
 
-'''
+~~~
 npm run server
-'''
+~~~
 Check on http://localhost:5000
 
 If you recieve na error make sure that your ip is listed in the mongodb whitelist.
