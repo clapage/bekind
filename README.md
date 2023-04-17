@@ -18,9 +18,8 @@ Testing the front-end server:
 
 In /client run 
 
-'''
-npm start
-'''
+
+'''npm start'''
 
 Visit: http://localhost:3000
 
